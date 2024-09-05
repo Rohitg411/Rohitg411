@@ -153,7 +153,7 @@ def add_user(message):
         else:
             response = "Please specify a user ID and the duration (e.g., 1hour, 2days, 3weeks, 4months) to add 😘."
     else:
-        response = "MADARCHODO KHARID LE purchase now from:- @ABSARSHEKH"
+        response = "MADARCHODO KHARID LE purchase now from:- @ABSARSHEKH."
 
     bot.reply_to(message, response)
 
@@ -189,7 +189,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
 ✅ Usage: /remove <userid>'''
     else:
-        response = "KHARID LE MADARCHODO  purchase now from:- @ABSARSHEKH"
+        response = "KHARID LE MADARCHODO  purchase now from:- @ABSARSHEKH."
 
     bot.reply_to(message, response)
 
@@ -208,7 +208,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Logs are already cleared ❌."
     else:
-        response = "MADARCHODO KHARID LE NA now from :- @ABSARSHEKH"
+        response = "MADARCHODO KHARID LE NA now from :- @ABSARSHEKH."
     bot.reply_to(message, response)
 
 
@@ -227,7 +227,7 @@ def clear_users_command(message):
         except FileNotFoundError:
             response = "users are already cleared ❌."
     else:
-        response = "ꜰʀᴇᴇ ᴋE CHUD NE AA GAYA LAUDE ʙᴜʏ:- @ABSARSHEKH"
+        response = "ꜰʀᴇᴇ ᴋE CHUD NE AA GAYA LAUDE ʙᴜʏ:- @ABSARSHEKH."
     bot.reply_to(message, response)
  
 
@@ -270,7 +270,7 @@ def show_recent_logs(message):
             response = "No data found ❌"
             bot.reply_to(message, response)
     else:
-        response = "ꜰʀᴇE KE CHUD NE AA GAYA LAUDE  ʙᴜʏ:- @ABSARSHEKH"
+        response = "ꜰʀᴇE KE CHUD NE AA GAYA LAUDE  ʙᴜʏ:- @ABSARSHEKH."
         bot.reply_to(message, response)
 
 
