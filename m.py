@@ -208,7 +208,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Logs are already cleared ❌."
     else:
-        response = "MADARCHODO KHARID LE NA now from :- @ABSARSHEKH."
+        response = "MADARCHODO KHARID LE NA now from :- @ABSARSHEKH.🍀"
     bot.reply_to(message, response)
 
 
@@ -227,7 +227,7 @@ def clear_users_command(message):
         except FileNotFoundError:
             response = "users are already cleared ❌."
     else:
-        response = "ꜰʀᴇᴇ ᴋE CHUD NE AA GAYA LAUDE ʙᴜʏ:- @ABSARSHEKH."
+        response = "ꜰʀᴇᴇ ᴋE CHUD NE AA GAYA LAUDE ʙᴜʏ:- @ABSARSHEKH.🍀"
     bot.reply_to(message, response)
  
 
@@ -252,7 +252,7 @@ def show_all_users(message):
         except FileNotFoundError:
             response = "No data found ❌"
     else:
-        response = "ꜰʀᴇᴇ ᴋᴇ CHUD NE AA GAYA LAUDE  ʙᴜʏ:- @ABSARSHEKH"
+        response = "ꜰʀᴇᴇ ᴋᴇ CHUD NE AA GAYA LAUDE  ʙᴜʏ:- @ABSARSHEKH.🍀"
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['logs'])
@@ -270,7 +270,7 @@ def show_recent_logs(message):
             response = "No data found ❌"
             bot.reply_to(message, response)
     else:
-        response = "ꜰʀᴇE KE CHUD NE AA GAYA LAUDE  ʙᴜʏ:- @ABSARSHEKH."
+        response = "ꜰʀᴇE KE CHUD NE AA GAYA LAUDE  ʙᴜʏ:- @ABSARSHEKH.🍀"
         bot.reply_to(message, response)
 
 
@@ -279,7 +279,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, 💉💦CHOD NA 🚀START KAR DI 💦 .🔥🔥\n\n🎯𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n🏖️𝐏𝐨𝐫𝐭: {port}\n⏰𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @ABSARSHEKH"
+    response = f"{username}, 💉💦CHOD NA 🚀START KAR DI 💦 .🔥🔥\n\n🎯𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n🏖️𝐏𝐨𝐫𝐭: {port}\n⏰𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @ABSARSHEKH.🍀"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
