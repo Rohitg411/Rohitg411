@@ -1,4 +1,4 @@
-#script by @whitedevil
+#script by @ABSARSHEKH
 
 import telebot
 import subprocess
@@ -8,10 +8,10 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7221465672:AAH537Mukw1BfZaTsFjxm_GT1hx-IT39jqU')
+bot = telebot.TeleBot('7505461200:AAFqV2TmdWkMJUWi6a0V32a13AiNIPNaytY')
 
 # Admin user IDs
-admin_id = ["1193658274"]
+admin_id = ["6607682618"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -48,8 +48,8 @@ allowed_user_ids = read_users()
 
 # Function to log command to the file
 def log_command(user_id, target, port, time):
-    admin_id = ["1193658274"]
-    user_info = bot.get_chat(user_id)
+    admin_id = ["6607682618"]
+    user_info = bot.get"_chat(user_id)
     if user_info.username:
         username = "@" + user_info.username
     else:
@@ -153,7 +153,7 @@ def add_user(message):
         else:
             response = "Please specify a user ID and the duration (e.g., 1hour, 2days, 3weeks, 4months) to add 😘."
     else:
-        response = "MADARCHODO KHARID LE purchase now from:- @whitedevil457."
+        response = "MADARCHODO KHARID LE purchase now from:- @ABSARSHEKH"
 
     bot.reply_to(message, response)
 
@@ -189,7 +189,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
 ✅ Usage: /remove <userid>'''
     else:
-        response = "KHARID LE MADARCHODO  purchase now from:- @whitedev457 🙇."
+        response = "KHARID LE MADARCHODO  purchase now from:- @ABSARSHEKH"
 
     bot.reply_to(message, response)
 
@@ -208,7 +208,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Logs are already cleared ❌."
     else:
-        response = "MADARCHODO KHARID LE NA now from :- @Whitedevil457 ❄."
+        response = "MADARCHODO KHARID LE NA now from :- @ABSARSHEKH"
     bot.reply_to(message, response)
 
 
@@ -227,7 +227,7 @@ def clear_users_command(message):
         except FileNotFoundError:
             response = "users are already cleared ❌."
     else:
-        response = "ꜰʀᴇᴇ ᴋE CHUD NE AA GAYA LAUDE ʙᴜʏ:- @whitedevil457 🙇."
+        response = "ꜰʀᴇᴇ ᴋE CHUD NE AA GAYA LAUDE ʙᴜʏ:- @ABSARSHEKH"
     bot.reply_to(message, response)
  
 
@@ -252,7 +252,7 @@ def show_all_users(message):
         except FileNotFoundError:
             response = "No data found ❌"
     else:
-        response = "ꜰʀᴇᴇ ᴋᴇ CHUD NE AA GAYA LAUDE  ʙᴜʏ:- @whitedevil457 ❄."
+        response = "ꜰʀᴇᴇ ᴋᴇ CHUD NE AA GAYA LAUDE  ʙᴜʏ:- @ABSARSHEKH"
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['logs'])
@@ -270,7 +270,7 @@ def show_recent_logs(message):
             response = "No data found ❌"
             bot.reply_to(message, response)
     else:
-        response = "ꜰʀᴇE KE CHUD NE AA GAYA LAUDE  ʙᴜʏ:- @whitedevil457❄."
+        response = "ꜰʀᴇE KE CHUD NE AA GAYA LAUDE  ʙᴜʏ:- @ABSARSHEKH"
         bot.reply_to(message, response)
 
 
@@ -279,7 +279,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, 💉💦CHOD NA 🚀START KAR DI 💦 .🔥🔥\n\n🎯𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n🏖️𝐏𝐨𝐫𝐭: {port}\n⏰𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @whitedevil457"
+    response = f"{username}, 💉💦CHOD NA 🚀START KAR DI 💦 .🔥🔥\n\n🎯𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n🏖️𝐏𝐨𝐫𝐭: {port}\n⏰𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @ABSARSHEKH"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
@@ -320,7 +320,7 @@ def handle_bgmi(message):
         else:
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
-        response = ("🚫 CHUD ME LUND NEHI GHUSA! 🚫\n\nOops! It  CONDOM PEHEN LE use the /bgmi command. DM TO BUY ACCESS:- @whitedevi457")
+        response = ("🚫 CHUD ME LUND NEHI GHUSA! 🚫\n\nOops! It  CONDOM PEHEN LE use the /bgmi command. DM TO BUY ACCESS:- @ABSARSHEKH")
 
     bot.reply_to(message, response)
 
@@ -375,7 +375,7 @@ def welcome_start(message):
     user_name = message.from_user.first_name
     response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
 🤖Try To Run This Command : /help 
-✅BUY :- @whitedevil457'''
+✅BUY :- @ABSARSHEKH'''
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
